@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: kiku
+      password: elsd4988
+      database: test
+      uri: mongodb://localhost:27017/test
+  datasource:
+    url: jdbc:mongodb://localhost:27017/test
+    username: kiku
+    password: elsd4988
+    driver-class-name: com.mongodb
